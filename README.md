@@ -1,6 +1,6 @@
 # Open Air Interface 5G
 
-This document can be used to deploy an Open Air Interface (OAI) core network using Docker on a VirtualBox (7.1.4) VM running a Linux system (Ubuntu 22.04.5). Once deployed, you can test the OAI 5G core network with oai-gNB.
+This document can be used to deploy an Open Air Interface (OAI) core network using Docker on a VirtualBox (7.1.4) VM running a Linux system (Ubuntu 22.04.5). Once deployed, you can test the OAI 5G core network with OAI-gNB.
 
 ## Pre-requisites
 | Software | Version |
@@ -71,11 +71,11 @@ docker-compose version 1.29.2
 
 ### 3. Installing wireshark
 ```bash
-$: sudo add-apt-repository ppa:wireshark-dev/stable
-$: sudo apt update
-$: sudo apt install wireshark
+$ sudo add-apt-repository ppa:wireshark-dev/stable
+$ sudo apt update
+$ sudo apt install wireshark
 
-$: wireshark --version
+$ wireshark --version
 Wireshark 4.4.0.
 ```
 
